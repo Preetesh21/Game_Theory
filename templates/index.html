@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="login">
+	<h1>Game Theory and Mechanism Design</h1>
+    <form method="post">
+      <p>Format:: hi,p2,p3,p0,a1,a2,a3,h0</p>
+    	<input type="text" name="f" placeholder="Facebook" required="required" />
+      <input type="text" name="i" placeholder="Twitter" required="required"/>
+      <input type="text" name="t" placeholder="Instagram" required="required"/>
+      <p>Format:: p0,h0</p>
+      <input type="text" name="g" placeholder="Government" required="required"/>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+    </form>
+</div>
+
+{% endblock %}
